@@ -25,3 +25,25 @@ http://localhost:3003/rs/challenge/en_us
 
 ## Validate Challenge
 
+
+```   
+    POST:
+    URL: http://localhost:3003/rs/challenge
+    Example Request
+    {
+        "answer":"truck",
+        "key":"pajue/pq8zghqwe/whpqfmmzcryj10mtiax0+adn2xrpmgd/04gbvv+aezp98rocaecy4d2l0hxliaxcy0rmxg=="
+    }
+   
+  
+```
+
+```
+   Example Response   
+
+{
+  "success": true
+}
+  
+```
+
