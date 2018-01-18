@@ -147,6 +147,7 @@ function getChallengeRow(req, res) {
                     };
                     console.log('challengeJson1= ' + JSON.stringify(challengeJson));
                     connection.release();
+                    res.header('Access-Control-Allow-Origin', "*");
                     res.send(challengeJson);
                     // Don't use the connection here, it has been returned to the pool.
                 } else {
